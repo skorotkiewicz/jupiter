@@ -45,4 +45,4 @@ npm run dev
 ---
 
 ## 📄 License
-MIT © 2026 Jupiter Team
+MIT
