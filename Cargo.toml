@@ -1,0 +1,22 @@
+[package]
+name = "jupiter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+actix-cors = "0.7"
+actix-rt = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.38", features = ["bundled"] }
+jsonwebtoken = { version = "10", features = ["rust_crypto"] }
+bcrypt = "0.18"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4"] }
+reqwest = { version = "0.13", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+env_logger = "0.11"
+dotenvy = "0.15"
+futures-util = "0.3"
